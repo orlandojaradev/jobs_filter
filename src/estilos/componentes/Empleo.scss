@@ -1,0 +1,97 @@
+.empleo-contenedor {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 12px 0 hsla(180, 29%, 50%, 0.3);
+
+  .info-contenedor {
+    position: relative;
+    img {
+      position: absolute;
+      top: -41px;
+      width: 50px;
+    }
+
+    .descripcion {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-bottom: 18px;
+      padding-bottom: 20px;
+      border-bottom: thin solid $color-dark;
+
+      .primera-fila {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        margin-top: 22px;
+        margin-bottom: 13px;
+
+        .compania {
+          margin-right: 20px;
+          color: $color-primario;
+        }
+
+        .nuevo {
+          width: 48px;
+          background-color: $color-primario;
+          padding: 4px;
+          border-radius: 10px;
+          text-align: center;
+          margin-right: 8px;
+          color: #fff;
+          font-weight: 700;
+        }
+        .presentado {
+          width: 83px;
+          border-radius: 12px;
+          background-color: $color-very-dark;
+          padding: 5px;
+          text-align: center;
+          color: #fff;
+        }
+      }
+      .segunda-fila {
+        margin-bottom: 13px;
+        .posicion {
+          font-weight: 700;
+        }
+      }
+
+      .tercera-fila {
+        .point {
+          position: relative;
+          bottom: 4px;
+          display: inline-block;
+          width: 2px;
+          height: 2px;
+          margin: 0 10px;
+          background-color: hsl(180, 8%, 52%, 0.8);
+          border-radius: 3px;
+          box-shadow: 0 0 3px 2px hsl(180, 8%, 52%, 0.8);
+        }
+
+        .tercera-fila-item {
+          color: $color-dark;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .tech-contenedor {
+    display: flex;
+    flex-flow: row wrap;
+
+    a {
+      margin: 5px 10px;
+    }
+  }
+}

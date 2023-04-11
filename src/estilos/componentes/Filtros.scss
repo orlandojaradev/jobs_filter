@@ -1,0 +1,48 @@
+.contenedor-categorias {
+  max-width: 700px;
+  min-height: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 12px 0 hsla(180, 29%, 50%, 0.3);
+  padding: 15px;
+
+  .filtro-cerrar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+    .filtro {
+      display: flex;
+      align-items: center;
+      margin: 0 10px;
+      flex-basis: 10%;
+      img {
+        display: flex;
+        align-items: center;
+        background-color: $color-primario;
+        border-radius: 0 4px 4px 0;
+        padding: 7px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  a {
+    width: 10%;
+    margin: 0 5px;
+    text-align: center;
+
+    &:hover {
+      text-decoration: underline;
+      color: $color-primario;
+      transition: all 0.1s ease;
+    }
+  }
+}
