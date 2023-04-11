@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/jobs_filter/static/css/main.8b88be60.css",
+    "main.js": "/jobs_filter/static/js/main.ae992ccd.js",
+    "static/media/desktop-design.jpg": "/jobs_filter/static/media/desktop-design.e0b61c470c57af41a2de.jpg",
+    "static/media/mobile-design.jpg": "/jobs_filter/static/media/mobile-design.4ff7994d0bad8e6eae6f.jpg",
+    "static/media/desktop-preview.jpg": "/jobs_filter/static/media/desktop-preview.baea220d4f71d67a6df5.jpg",
+    "static/media/active-states.jpg": "/jobs_filter/static/media/active-states.2e7dcf875de0b589bbdd.jpg",
+    "static/media/mobile-with-filters.jpg": "/jobs_filter/static/media/mobile-with-filters.3c00c4bb8ddb1e1cef7d.jpg",
+    "static/media/loop-studios.svg": "/jobs_filter/static/media/loop-studios.7778c957c5751d1502cc.svg",
+    "static/media/photosnap.svg": "/jobs_filter/static/media/photosnap.5a867c13a374d62b400f.svg",
+    "static/media/manage.svg": "/jobs_filter/static/media/manage.5a528a9669728fb94c8c.svg",
+    "static/media/insure.svg": "/jobs_filter/static/media/insure.4d535e7e02c25d02b163.svg",
+    "static/media/account.svg": "/jobs_filter/static/media/account.903d6cd02abadf4b4d60.svg",
+    "static/media/eyecam-co.svg": "/jobs_filter/static/media/eyecam-co.0abb14e8a292eed471d5.svg",
+    "static/media/shortly.svg": "/jobs_filter/static/media/shortly.3c01b577742e2648f6f9.svg",
+    "static/media/myhome.svg": "/jobs_filter/static/media/myhome.aaaaa430346f24f652d5.svg",
+    "static/media/the-air-filter-company.svg": "/jobs_filter/static/media/the-air-filter-company.9b55f6443c39f7b79348.svg",
+    "static/media/bg-header-desktop.svg": "/jobs_filter/static/media/bg-header-desktop.752d0faf14c00c6fb55f.svg",
+    "static/media/faceit.svg": "/jobs_filter/static/media/faceit.54a148ce9e8793ff767e.svg",
+    "index.html": "/jobs_filter/index.html",
+    "static/media/bg-header-mobile.svg": "/jobs_filter/static/media/bg-header-mobile.b7750a0c3e0c016763b9.svg",
+    "static/media/icon-remove.svg": "/jobs_filter/static/media/icon-remove.4da6033d6fad6c773dbf50152139d44c.svg",
+    "main.8b88be60.css.map": "/jobs_filter/static/css/main.8b88be60.css.map",
+    "main.ae992ccd.js.map": "/jobs_filter/static/js/main.ae992ccd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b88be60.css",
+    "static/js/main.ae992ccd.js"
+  ]
+}
