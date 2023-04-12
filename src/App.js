@@ -7,9 +7,7 @@ function App() {
   const [agregarFiltro, setAgregarFiltro] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "https://my-json-server.typicode.com/orlandojaradev/API-Jobs-Filter/jobs"
-    )
+    fetch("https://orlandojaradev.github.io/jobs-json/data/db.json")
       .then((res) => res.json())
       .then((data) => {
         setEmpleo(data);
@@ -28,9 +26,7 @@ function App() {
 
   //Se eliminan los filtros realizando de nuevo la peticion Ajax
   const eliminarFiltros = () => {
-    fetch(
-      "https://my-json-server.typicode.com/orlandojaradev/API-Jobs-Filter/jobs"
-    )
+    fetch("https://orlandojaradev.github.io/jobs-json/data/db.json")
       .then((res) => res.json())
       .then((data) => {
         setEmpleo(data);
