@@ -7,7 +7,7 @@ function App() {
   const [agregarFiltro, setAgregarFiltro] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5500/src/data.json")
+    fetch("./data.json")
       .then((res) => res.json())
       .then((data) => {
         setEmpleo(data);
